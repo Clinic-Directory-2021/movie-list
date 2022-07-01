@@ -1,0 +1,20 @@
+{
+  "name": "movie-list",
+  "description": "Webcomponent movie-list following open-wc recommendations",
+  "license": "MIT",
+  "author": "movie-list",
+  "version": "0.0.0",
+  "scripts": {
+    "analyze": "cem analyze --litelement",
+    "start": "web-dev-server"
+  },
+  "dependencies": {
+    "@open-wc/lit-helpers": "^0.4.0-next.1",
+    "lit": "^2.0.2"
+  },
+  "devDependencies": {
+    "@custom-elements-manifest/analyzer": "^0.4.17",
+    "@web/dev-server": "^0.1.28"
+  },
+  "customElements": "custom-elements.json"
+}
